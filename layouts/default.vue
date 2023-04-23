@@ -1,10 +1,13 @@
 <template>
   <div :class="$style.bg">
+    <TheHeader />
     <slot />
   </div>
 </template>
 
 <script setup lang="ts">
+import { TheHeader } from '#components'
+
 useHead({
   title: 'Julius',
   link: [
