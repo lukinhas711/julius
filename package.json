@@ -10,6 +10,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
+  "engines": {
+    "node": ">=16"
+  },
   "devDependencies": {
     "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
