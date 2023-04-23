@@ -4,6 +4,8 @@
     <p :class="$style.text">
       <slot name="text"></slot>
     </p>
+
+    <slot name="button"></slot>
   </section>
 </template>
 
