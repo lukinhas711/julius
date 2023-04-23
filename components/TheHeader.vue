@@ -19,7 +19,7 @@ const logged = ref(false)
 
 <style lang="postcss" module>
 .bg {
-  @apply fixed top-0 inset-x-0 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-[0.02] bg-white;
+  @apply fixed top-0 inset-x-0 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-[0.02] bg-white border-b border-white border-opacity-10;
 }
 
 .navbar {
